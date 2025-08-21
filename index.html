@@ -7,7 +7,12 @@
     <h1>Saludador</h1>
     <form id="saludar-form">
       <label for="primer-nombre">Nombre:</label>
-      <input type="text" id="primer-nombre" />
+      <input type="text" id="primer-nombre" /><br>
+      <label for ="genero">Selecciona tu género:</label>
+      <input type="radio" id="genero-masculino" name="genero" value="masculino" />
+      <label for="genero-masculino">Masculino</label>
+      <input type="radio" id="genero-femenino" name="genero" value="femenino" />
+      <label for="genero-femenino">Femenino</label><br>
       <input type="submit" value="Saludar" id="saludar-button" />
     </form>
     <div id="resultado-div"></div>
