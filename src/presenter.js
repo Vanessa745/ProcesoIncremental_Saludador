@@ -4,6 +4,7 @@ import saludar from "./saludo";
 const nom = document.querySelector("#primer-nombre");
 const generoMasculino = document.querySelector("#genero-masculino");
 const generoFemenino = document.querySelector("#genero-femenino");
+const ed=document.querySelector("#c-edad");
 const form = document.querySelector("#saludar-form");
 const div = document.querySelector("#resultado-div");
 
@@ -13,6 +14,7 @@ form.addEventListener("submit", (event) => {
   const nombre = nom.value;
   let actual = new Date();
   let genero;
+  const edad = ed.value;
 
   if (generoMasculino.checked) {
     genero = "masculino";
@@ -21,5 +23,5 @@ form.addEventListener("submit", (event) => {
   }
 
 
-  div.innerHTML = "<p>" + saludar(nombre, actual.getHours(), genero) + "</p>";
+  div.innerHTML = "<p>" + saludar(nombre, actual.getHours(), genero, edad) + "</p>";
 });
