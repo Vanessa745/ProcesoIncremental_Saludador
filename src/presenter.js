@@ -1,4 +1,5 @@
 import sumar from "./sumador";
+import saludar from "./saludo";
 
 const nom = document.querySelector("#primer-nombre");
 const form = document.querySelector("#saludar-form");
@@ -8,6 +9,7 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const nombre = nom.value;
+  let actual = new Date();
 
-  div.innerHTML = "<p>Hola " + nombre + "</p>";
+  div.innerHTML = "<p>" + saludar(nombre, actual.getHours()) + "</p>";
 });
