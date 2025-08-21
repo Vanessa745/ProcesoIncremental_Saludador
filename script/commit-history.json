@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6a3c038d3c3f7509450f9c6e5dbef238169fe56a",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-08-21T12:40:49.000Z",
       "message": "feat: Agregar saludo simple",
-      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/6a3c038d3c3f7509450f9c6e5dbef238169fe56a"
     },
     "stats": {
       "total": 19,
       "additions": 5,
       "deletions": 14,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-08-21T13:19:23.000Z",
+      "message": "feat: Agregar saludo por nombre",
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
       "date": "2025-08-21"
     },
     "coverage": 100,
