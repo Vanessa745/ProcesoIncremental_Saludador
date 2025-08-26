@@ -2,4 +2,12 @@ function sumar(a, b) {
   return a + b;
 }
 
-export default sumar;
+function dividir(a, b){
+  return a / b;
+}
+
+function restar(a, b){
+  return a - b;
+}
+
+export {sumar, dividir, restar};
