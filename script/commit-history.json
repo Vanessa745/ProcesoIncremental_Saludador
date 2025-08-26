@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bbf7cd98dc3c653b4593985378eee275d1d9d815",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-08-26T14:16:22.000Z",
       "message": "feat: convierte cualquier número que no es múltiplo de 3 ni 5",
-      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/bbf7cd98dc3c653b4593985378eee275d1d9d815"
     },
     "stats": {
       "total": 8,
@@ -186,6 +186,25 @@
     },
     "coverage": 61.54,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-08-26T14:19:40.000Z",
+      "message": "feat: convierte el número 3 a Fizz",
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2025-08-26"
+    },
+    "coverage": 63.41,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
