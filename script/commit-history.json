@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e366843a9e35fb3529a80dd793af750ed39fdb02",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-08-26T14:12:29.000Z",
       "message": "feat: convierte un número que no es múltiplo de 3 ni 5",
-      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/e366843a9e35fb3529a80dd793af750ed39fdb02"
     },
     "stats": {
       "total": 40,
@@ -167,6 +167,25 @@
     },
     "coverage": 61.54,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-08-26T14:16:22.000Z",
+      "message": "feat: convierte cualquier número que no es múltiplo de 3 ni 5",
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2025-08-26"
+    },
+    "coverage": 61.54,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
