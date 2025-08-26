@@ -13,14 +13,14 @@ function saludar(nombre, hora, genero, edad, idioma) {
         }
 
         if (genero === "masculino") {
-            bienvenida = "Welcome ";
+            bienvenida = "Welcome";
             if(edad <= 30) {
                 titulo = "Young man "
             } else {
                 titulo = "Sir "
             }
         } else if (genero === "femenino") {
-            bienvenida = "Welcome ";
+            bienvenida = "Welcome";
             if(edad <= 30) {
                 titulo = "Miss "
             } else {
@@ -37,14 +37,14 @@ function saludar(nombre, hora, genero, edad, idioma) {
         }
 
         if (genero === "masculino") {
-            bienvenida = "Bienvenido ";
+            bienvenida = "Bienvenido";
             if(edad <= 30) {
                 titulo = "Joven "
             } else {
                 titulo = "Señor "
             }
         } else if (genero === "femenino") {
-            bienvenida = "Bienvenida ";
+            bienvenida = "Bienvenida";
             if(edad <= 30) {
                 titulo = "Señorita "
             } else {

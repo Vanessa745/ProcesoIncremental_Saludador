@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "620a4bfa2c153d8e1f5d62ac1b7ddf19b522cb86",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-08-21T17:44:05.000Z",
       "message": "feat: Agregar saludo por idioma",
-      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/620a4bfa2c153d8e1f5d62ac1b7ddf19b522cb86"
     },
     "stats": {
       "total": 80,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-08-26T12:23:10.000Z",
+      "message": "Pruebas de saludo",
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 17,
+      "deletions": 4,
+      "date": "2025-08-26"
+    },
+    "coverage": 58.33,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
