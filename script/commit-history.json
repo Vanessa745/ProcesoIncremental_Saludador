@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8fcde3b43b56556cbcad44fbe9fbab17d00c38c7",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-08-26T14:23:42.000Z",
       "message": "feat: convierte múltiplos de 3 a Fizz",
-      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/8fcde3b43b56556cbcad44fbe9fbab17d00c38c7"
     },
     "stats": {
       "total": 6,
@@ -224,6 +224,25 @@
     },
     "coverage": 63.41,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-08-26T14:27:25.000Z",
+      "message": "feat: convierte el número 5 a Buzz",
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2025-08-26"
+    },
+    "coverage": 65.12,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
