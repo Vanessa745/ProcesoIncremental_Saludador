@@ -1,19 +1,21 @@
 import sumar from "./sumador";
 import saludar from "./saludo";
+import convertirFizzbuzz from "./fizzbuzz.js";
 
-const nom = document.querySelector("#primer-nombre");
+/*const nom = document.querySelector("#primer-nombre");
 const generoMasculino = document.querySelector("#genero-masculino");
 const generoFemenino = document.querySelector("#genero-femenino");
 const ed=document.querySelector("#c-edad");
 const idiomaEspanol = document.querySelector("#idioma-es");
-const idiomaIngles = document.querySelector("#idioma-en");
-const form = document.querySelector("#saludar-form");
+const idiomaIngles = document.querySelector("#idioma-en");*/
+const num = document.querySelector("#numero");
+const form = document.querySelector("#fizzbuzz-form");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const nombre = nom.value;
+  /*const nombre = nom.value;
   let actual = new Date();
   let genero;
   let idioma;
@@ -29,7 +31,7 @@ form.addEventListener("submit", (event) => {
     idioma = "espanol";               
   } else if (idiomaIngles.checked) {
     idioma = "ingles";  
-  }
+  }*/
 
-  div.innerHTML = "<p>" + saludar(nombre, actual.getHours(), genero, edad, idioma) + "</p>";
+  div.innerHTML = "<p>" + convertirFizzbuzz(num.value) + "</p>";
 });

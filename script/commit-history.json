@@ -285,17 +285,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b8ba1bca880b40e0dbe3882a66dccc6214f7ad94",
     "author": "Vanessa745",
     "commit": {
       "date": "2025-08-28T00:23:24.000Z",
       "message": "feat: genera la secuencia FizzBuzz hasta un numero dado",
-      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/b8ba1bca880b40e0dbe3882a66dccc6214f7ad94"
     },
     "stats": {
       "total": 27,
       "additions": 18,
       "deletions": 9,
+      "date": "2025-08-28"
+    },
+    "coverage": 70.59,
+    "test_count": 15,
+    "failed_tests": 6,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Vanessa745",
+    "commit": {
+      "date": "2025-08-28T01:19:31.000Z",
+      "message": "fix: Corrección de HTML para FizzBuzz",
+      "url": "https://github.com/Vanessa745/ProcesoIncremental_Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 17,
+      "deletions": 7,
       "date": "2025-08-28"
     },
     "coverage": 70.59,
