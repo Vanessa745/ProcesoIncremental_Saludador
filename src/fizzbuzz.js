@@ -1,11 +1,18 @@
 function convertirFizzbuzz(n) {
+    let resultado = "";
     if(n % 3 == 0){
-        return "Fizz";
+        resultado = "Fizz";
+        if(n % 5 == 0){
+            resultado += "Buzz";
+        }
+    }else{
+        if(n % 5 == 0){
+            resultado = "Buzz";
+        }else{
+            resultado = n + "";
+        }
     }
-    if(n % 5 == 0){
-        return "Buzz";
-    }
-    return n + "";
+    return resultado;
 }
 
 export default convertirFizzbuzz;
