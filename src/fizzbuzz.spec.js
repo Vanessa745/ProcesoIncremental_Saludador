@@ -28,4 +28,8 @@ describe("FizzBuzz", () => {
   it("deberia convertir cualquier multiplo de 3 y 5 a FizzBuzz", () => {
     expect(convertirFizzbuzz(15)).toEqual("FizzBuzz");
   });
+
+  it("deberia generar la secuencia FizzBuzz hasta el numero dado", () => {
+    expect(convertirFizzbuzz(10)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz");
+  });
 });
